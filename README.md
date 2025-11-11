@@ -1,1 +1,9 @@
 # retail-sales-analysis-sql
+
+This project illustrates valid Practical SQL skills through the simulated design, construction, and analysis of a retail sales database. Here the business customer wants to understand the buying behavior of customers and the sales and product effectiveness. This project covers schema construction, data insertion, and analytical SQL queries to demonstrate the use of a database at basic and intermediate levels. 
+
+The database is centered on four fundamental entities: customers, products, orders, and order_items. The interrelation of primary and foreign keys connects the tables to demonstrate the functionality of a retail system. The database schema is the definitive cross reference relational model of database construction which facilitates a structured means to access data. Asserts of simulated data were included to reflect actual business interaction across varied months, customers, and product categories.
+
+Subsequent insights were gathered using analytical SQL statements. To determine the total spending for each customer, joins were used, alongside the aggregate function SUM(), to find the top customers by revenue. For revenue analysis, the use of date functions, and grouping by time intervals, indicated progress as this is vital for assessing business trends. 
+
+Furthermore, a query on product performance pinpointed the most frequently purchased products, while another highlighted the products that had no sales at all, demonstrating opportunities for inventory optimization. For the first time, a modern analytical technique, a window function (RANK()), was used to order customers on a spending hierarchy. It showcases the use of advanced skills in the field of analytics. This project was also the first time advanced analytics skills were applied in the field. It showcased mastery in concepts of SQL such as joins, group-by reporting, filtering, foreign key constraints, and window functions.
